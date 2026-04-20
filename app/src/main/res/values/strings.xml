@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CoolImageApp</string>
+    <string name="image_item">Imagem</string>
+    <string name="favorites_label">⭐</string>
+    <string name="favorite_slot">Favorito</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="back_button">Voltar</string>
 </resources>

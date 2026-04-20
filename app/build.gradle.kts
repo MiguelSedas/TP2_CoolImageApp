@@ -44,4 +44,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // Gson para parsing JSON
+    implementation("com.google.code.gson:gson:2.10.1")
+    // Glide para carregar imagens
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    // RecyclerView
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    // SwipeRefreshLayout
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    // ViewModel e LiveData
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
 }
